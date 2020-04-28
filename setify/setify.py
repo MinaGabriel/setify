@@ -4,8 +4,8 @@ import pandas as pd
 
 
 def _get_server():
-    # return 'http://207.148.28.62:5000'
-    return 'http://127.0.0.1:5000'
+    return 'http://207.148.28.62:5000'
+    #return 'http://127.0.0.1:5000'
 
 
 class Setify:
