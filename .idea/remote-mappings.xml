@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://prghu@192.168.68.119:22/home/prghu/anaconda3/envs/venv/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$USER_HOME$/PycharmProjects/YOLO" remote-root="/home/prghu/Documents/prg-dnn/Mina/PyCharm" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

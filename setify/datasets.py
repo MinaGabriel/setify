@@ -5,9 +5,21 @@ from setify import utils
 
 
 def _get_server():
-    return 'http://207.148.28.62:5000'
-    #return 'http://127.0.0.1:5000'
+    #return 'http://207.148.28.62:5000'
+    return 'http://127.0.0.1:5000'
 
+
+def titanic():
+    fpath = utils.load_data(_get_server() + "/titanic", 'titanic.h5')
+    return pd.read_hdf(fpath)
+
+def netflix_titles():
+    fpath = utils.load_data(_get_server() + "/netflix_titles", 'netflix_titles.h5')
+    return pd.read_hdf(fpath)
+
+def wine_quality():
+    fpath = utils.load_data(_get_server() + "/wine_quality", 'wine_quality.h5')
+    return pd.read_hdf(fpath)
 
 def country_birth_rate():
     fpath = utils.load_data(_get_server() + "/country_birth_rate", 'country_birth_rate.h5')

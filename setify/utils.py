@@ -61,7 +61,7 @@ def get_file(origin, fname, cache_dir=None, cache_subdir='datasets'):
 
             chunk_size = int(total_size / 10)
             data = ''
-            print(Fore.WHITE + 'file name: ', convert_size(total_size))
+            print(Fore.WHITE + 'file size: ', convert_size(total_size))
             print(Fore.WHITE + 'file location: ', fpath)
             with tqdm(total=total_size,
                       unit='B', unit_scale=True, unit_divisor=chunk_size,

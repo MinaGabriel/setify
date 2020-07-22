@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='setify',
     packages=['setify'],
-    version='0.3',
+    version='0.4',
     license='MIT',
     description='Dataset packages',
     author='Mina Gabriel',
@@ -15,7 +15,8 @@ setup(
         'pandas',
         'numpy',
         'tqdm',
-        'colorama'
+        'colorama',
+        'tables'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',

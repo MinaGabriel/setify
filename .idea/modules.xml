@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/PycharmProjects/Testing/.idea/Testing.iml" filepath="$USER_HOME$/PycharmProjects/Testing/.idea/Testing.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/YOLO/.idea/YOLO.iml" filepath="$USER_HOME$/PycharmProjects/YOLO/.idea/YOLO.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/setify.iml" filepath="$PROJECT_DIR$/.idea/setify.iml" />
       <module fileurl="file://$PROJECT_DIR$/../setify-server/.idea/setify-server.iml" filepath="$PROJECT_DIR$/../setify-server/.idea/setify-server.iml" />
     </modules>
