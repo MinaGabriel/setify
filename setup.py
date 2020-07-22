@@ -9,7 +9,7 @@ setup(
     author='Mina Gabriel',
     author_email='developer.mina@gmail.com',
     url='https://github.com/MinaGabriel/setify.git',
-    download_url='https://github.com/MinaGabriel/setify/archive/v0.4.tar.gz',
+    download_url='https://github.com/MinaGabriel/setify/archive/v0.4.1.tar.gz',
     keywords=['Dataset', 'Data'],
     install_requires=[
         'pandas',
