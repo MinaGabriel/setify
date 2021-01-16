@@ -1,3 +1,4 @@
-from setify import datasets
+from setify import datasets, utils
 
-df = datasets.logic_gate_or()
+df = datasets.walmart_store_location()
+print(utils.frame_information(df))
