@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name='setify',
     packages=['setify'],
-    version='0.4',
+    version='0.6',
     license='MIT',
     description='Dataset packages',
     author='Mina Gabriel',
     author_email='developer.mina@gmail.com',
     url='https://github.com/MinaGabriel/setify.git',
-    download_url='https://github.com/MinaGabriel/setify/archive/v0.4.1.tar.gz',
+    download_url='https://github.com/MinaGabriel/setify/archive/v0.6.tar.gz',
     keywords=['Dataset', 'Data'],
     install_requires=[
         'pandas',
@@ -28,4 +28,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
+
+    long_description='Setify is an open-source dataset package manager written in Python and designed to enable fast experimentation for Machine Learning, Setify allows you to reach hundreds of datasets with one command.',
+    long_description_content_type='https://developer-mina.gitbook.io/setify/',
 )
