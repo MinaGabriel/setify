@@ -9,6 +9,11 @@ def _get_server():
     #return 'http://127.0.0.1:5000'
 
 
+def hazardous_materials():
+    fpath = utils.load_data(_get_server() + "/hazardous_materials", 'hazardous_materials.h5')
+    return pd.read_hdf(fpath)
+
+
 def walmart_store_location():
     fpath = utils.load_data(_get_server() + "/walmart_store_location", 'walmart_store_location.h5')
     return pd.read_hdf(fpath)

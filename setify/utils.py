@@ -51,7 +51,8 @@ def get_file(origin, fname, cache_dir=None, cache_subdir='datasets'):
 
     if download:
         print('Downloading data from', origin)
-        meta = {'date-time': datetime.datetime.now(), 'version': setify.__version__}
+        meta = {'date-time': datetime.datetime.now(),
+                'version': setify.__version__}
 
         with urllib.request.urlopen(origin) as response, pd.HDFStore(fpath, 'w') as f:
             content_type = response.info().get('Content-Length')
@@ -99,10 +100,11 @@ def convert_size(size_bytes):
 
 def frame_information(df):
     x = df[:5]
-    y = pd.DataFrame([['...'] * df.shape[1]], columns=df.columns, index=['...'])
+    y = pd.DataFrame([['...'] * df.shape[1]],
+                     columns=df.columns, index=['...'])
     z = df[-5:]
     frame = [x, y, z]
     result = pd.concat(frame)
-    print(result)
+    print(Fore.GREEN +  str(result))
     print('[' + str(df.shape[0]) + ' rows x ' + str(df.shape[1]) + ' columns]')
-    print(Fore.GREEN +  str(df.info()))
+  

@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name='setify',
     packages=['setify'],
-    version='0.6',
+    version='0.6.1',
     license='MIT',
     description='Dataset packages',
     author='Mina Gabriel',
     author_email='developer.mina@gmail.com',
     url='https://github.com/MinaGabriel/setify.git',
-    download_url='https://github.com/MinaGabriel/setify/archive/v0.6.tar.gz',
+    download_url='https://github.com/MinaGabriel/setify/archive/v0.6.1.tar.gz',
     keywords=['Dataset', 'Data'],
     install_requires=[
         'pandas',
